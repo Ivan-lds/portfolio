@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title>Portfólio</title>
+</head>
+<body>
+    <!-- Menu -->
+    <header class="cabecalho">
+        <img class="cabecalho__logo" src="assets/logo-ivan.gif" alt="Logo">
+        <h1 class="cabecalho__titulo">Ivan Lima</h1>
+        <nav class="navegacao">
+            <ul class="navegacao__lista">
+                <li class="navegacao__elemento"><a href="#sobre-mim">Sobre mim</a></li>
+                <li class="navegacao__elemento"><a href="#habilidades">Habilidades</a></li>
+                <li class="navegacao__elemento"><a href="#hobbies">Hobbies</a></li>
+                <li class="navegacao__elemento"><a href="#formacao">Formação</a></li>
+                <li class="navegacao__elemento"><a href="#projetos">Projetos</a></li>
+                <li class="navegacao__elemento"><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de Apresentação -->
+    <main>
+    <section class="apresentacao">
+        <img class="apresentacao__foto" src="assets/img-perfil.jpg" alt="Foto de perfil">
+        <div class="apresentacao__conteiner">
+        <h2 class="apresentacao__titulo">Olá, me chamo <span>Ivan Lima</span> Desenvolvedor Front-End</h2>
+            <p class="apresentacao__subtitulo">Estou cursando Análise e Desenvolvimento de Sistemas e atualmente estou participando do projeto Oracle ONE na Alura Latam.</p>
+            <ul class="redes">
+                <li class="redes__elemento">
+                    <a class="redes__elemento__a" href="https://github.com/Ivan-lds" target="_blank">Github <img class="arrow" src="assets/arrow.png" alt="Seta"></a>
+                </li>
+                <li class="redes__elemento">
+                    <a class="redes__elemento__a" href="https://www.linkedin.com/in/ivan-lima-a28335186/" target="_blank">Linkedin <img class="arrow" src="assets/arrow.png" alt="Seta"></a>
+                </li>
+                <li class="redes__elemento">
+                    <a class="redes__elemento__a" href="https://www.instagram.com/ivan.lds._/" target="_blank">Instagram <img class="arrow" src="assets/arrow.png" alt="Seta"></a>
+                </li>
+                <li class="redes__elemento">
+                    <a class="redes__elemento__a" href="" target="_blank">Currículo <img class="arrow" src="assets/arrow.png" alt="Seta"></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Seção sobre mim -->
+    <section class="sobre-mim" id="sobre-mim">
+        <h2 class="sobre-mim__titulo">Sobre mim</h2>
+        <p class="sobre-mim__texto">👋 Olá! Me chamo Ivan Lima, tenho 18 anos e sou estudante de Análise e Desenvolvimento de Sistemas pela Estácio.</p><br>
+        <p class="sobre-mim__texto">📌 Sou uma pessoa proativa e dedicada, apaixonado por desenvolvimento de software e sempre tive interesse em aprender mais sobre tecnologia. Adapto-me bem às diversas situações que ocorrem no ambiente de trabalho e busco dar o meu melhor em tudo o que me proponho a fazer. Atualmente, sou estagiário na empresa Elas Promo na área de BackOffice, onde me dedico diariamente a contribuir para o sucesso e crescimento da empresa.</p>
+        <p class="sobre-mim__texto">
+            <br>
+            Contato:
+            <br>
+            📩 ivanlimadossantos4@gmail.com
+            <br>
+            📲 (75) 98885-5230</p>
+    </section>
+
+    <!-- Seção de Habilidades -->
+    <section class="habilidades" id="habilidades">
+        <h2 class="habilidades__titulo">Habilidades</h2>
+        <ul class="habilidades__lista">
+            <li class="habilidades__elemento">
+                <img class="habilidades__icone" src="assets/habilidades-icons/html.png" alt="HTML">
+                <p class="habilidades__nome">HTML</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icone" src="assets/habilidades-icons/social.png" alt="CSS">
+                <p class="habilidades__nome">CSS</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icone" src="assets/habilidades-icons/java-script.png" alt="JavaScript">
+                <p class="habilidades__nome">JavaScript</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icone" src="assets/habilidades-icons/icon-tailwind.png" alt="Tailwind">
+                <p class="habilidades__nome">Tailwind</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icone" src="assets/habilidades-icons/typescript.png" alt="TypeScript">
+                <p class="habilidades__nome">TypeScript</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icone" src="assets/habilidades-icons/react.png" alt="React">
+                <p class="habilidades__nome">React</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icone" id="nodejs" src="assets/habilidades-icons/nodejs.png" alt="Node.js">
+                <p class="habilidades__nome">Node.js</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Seção de Hobbies -->
+    <section class="hobbies" id="hobbies">
+        <h2 class="hobbies__titulo">Hobbies</h2>
+        <ul class="hobbies__lista">
+            <li class="hobbies__elemento">
+                <img class="hobbies__icone" src="assets/hobbies-icons/violao.png" alt="Tocar violao">
+                <p class="hobbies__nome">Tocar violão</p>
+            </li>
+            <li class="hobbies__elemento">
+                <img class="hobbies__icone" src="assets/hobbies-icons/headphones.png" alt="Ouvir música">
+                <p class="hobbies__nome">Ouvir música</p>
+            </li>
+            <li class="hobbies__elemento">
+                <img class="hobbies__icone" src="assets/hobbies-icons/smart-tv.png" alt="Assistir séries">
+                <p class="hobbies__nome">Assistir séries</p>
+            </li>
+            <li class="hobbies__elemento">
+                <img class="hobbies__icone" src="assets/hobbies-icons/cooking.png" alt="Cozinhar">
+                <p class="hobbies__nome">Cozinhar</p>
+            </li>
+            <li class="hobbies__elemento">
+                <img class="hobbies__icone" src="assets/hobbies-icons/camera.png" alt="Fotografar">
+                <p class="hobbies__nome">Fotografar</p>
+            </li>
+            <li class="hobbies__elemento">
+                <img class="hobbies__icone" src="assets/hobbies-icons/programming.png" alt="Progamar">
+                <p class="hobbies__nome">Progamar</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Seção de Formação Acadêmica -->
+    <section class="formacao" id="formacao">
+        <h2 class="formacao__titulo">Formação Acadêmica</h2>
+        <ul class="formacao__lista">
+            <li class="formacao__elemento">
+                <img class="formacao__icone" src="assets/cursos/estacio.png" alt="Estácio">
+                <div class="div-formacao">
+                    <h3 class="formacao__nome">Análise e Desenvolvimento <br> de Sistemas</h3>
+                    <p class="formacao__detalhe">[2024-2026]</p>
+                </div>
+            </li>
+            <li class="formacao__elemento">
+                <img class="formacao__icone" src="assets/cursos/alura.png" alt="Alura">
+                <div class="div-formacao">
+                    <h3 class="formacao__nome">Desenvolvedor Front-End</h3>
+                    <p class="formacao__detalhe">[2024-2025]</p>
+                </div>
+            </li>
+            <li class="formacao__elemento">
+                <img class="formacao__icone" src="assets/cursos/DIO.png" alt="DIO">
+                <div class="div-formacao">
+                    <h3 class="formacao__nome">Front-End do Zero</h3>
+                    <p class="formacao__detalhe">[Out-Dez/2024]</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Seção de Projetos -->
+    <section class="projetos" id="projetos">
+        <h2 class="projetos__titulo">Experiência Profissional</h2>
+        <div class="projetos__conteiner-inicio">
+            <img class="projetos-img" src="assets/projetos/E-book.png" alt="">
+            <div class="projetos-informacoes">
+            <h3 class="projetos__nome">E-books</h3>
+            <p class="projetos__descricao">E-commerce de livros digitais</p>
+            <nav class="projetos-botoes">
+                <a class="projetos-ancoras" href="https://github.com/Ivan-lds/e-books-il" target="_blank">Repositório</a>
+                <a class="projetos-ancoras-2" href="https://e-books-il.vercel.app/" target="_blank">Ver Deploy</a>
+            </nav>
+            </div>
+        </div>
+        <div class="projetos__conteiner">
+            <div class="projetos-informacoes">
+            <h3 class="projetos__nome">Coffe Wagner</h3>
+            <p class="projetos__descricao">E-commerce de café</p>
+            <nav class="projetos-botoes">
+                <a class="projetos-ancoras" href="https://github.com/Ivan-lds/Coffe-Wagner" target="_blank">Repositório</a>
+                <a class="projetos-ancoras-2" href="https://coffe-wagner.vercel.app/" target="_blank">Ver Deploy</a>
+            </nav>
+            </div>
+            <img class="projetos-img" src="assets/projetos/coffe-wagner.png" alt="">
+        </div>
+        <div class="projetos__conteiner">
+            <img class="projetos-img" src="assets/projetos/jornada-viagens.png" alt="">
+            <div class="projetos-informacoes">
+            <h3 class="projetos__nome">Jornada Viagens</h3>
+            <p class="projetos__descricao">Agência de Viagens</p>
+            <nav class="projetos-botoes">
+                <a class="projetos-ancoras" href="https://github.com/Ivan-lds/jornada-viagens" target="_blank">Repositório</a>
+                <a class="projetos-ancoras-2" href="https://jornada-viagens-six.vercel.app/" target="_blank">Ver Deploy</a>
+            </nav>
+            </div>
+        </div>
+        <div class="projetos__conteiner">
+            <div class="projetos-informacoes">
+            <h3 class="projetos__nome">Alura-Play</h3>
+            <p class="projetos__descricao">Streaming de Video-Aulas</p>
+            <nav class="projetos-botoes">
+                <a class="projetos-ancoras" href="https://github.com/Ivan-lds/Aluraplay" target="_blank">Repositório</a>
+                <a class="projetos-ancoras-2" href="https://aluraplay-azure-six.vercel.app/" target="_blank">Ver Deploy</a>
+            </nav>
+            </div>
+            <img class="projetos-img" src="assets/projetos/Aluraplay - desktop.png" alt="">
+        </div>
+        <div class="projetos__conteiner">
+            <img class="projetos-img" src="assets/projetos/Genime.png" alt="">
+            <div class="projetos-informacoes">
+            <h3 class="projetos__nome">Genime</h3>
+            <p class="projetos__descricao">Sistemas de busca de personagens</p>
+            <nav class="projetos-botoes">
+                <a class="projetos-ancoras" href="https://github.com/Ivan-lds/genime" target="_blank">Repositório</a>
+                <a class="projetos-ancoras-2" href="https://genime-bice.vercel.app/" target="_blank">Ver Deploy</a>
+            </nav>
+            </div>
+        </div>
+        <div class="projetos__conteiner-final">
+            <div class="projetos-informacoes">
+            <h3 class="projetos__nome">Decodificador</h3>
+            <p class="projetos__descricao">Decodificador de Texto</p>
+            <nav class="projetos-botoes">
+                <a class="projetos-ancoras" href="https://github.com/Ivan-lds/decodificador" target="_blank">Repositório</a>
+                <a class="projetos-ancoras-2" href="https://decodificador-lac.vercel.app/" target="_blank">Ver Deploy</a>
+            </nav>
+            </div>
+            <img class="projetos-img" src="assets/projetos/Decodificador.png" alt="">
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section class="contato" id="contato">
+        <img class="img-contato" src="assets/morpheus.png" alt="">
+        <div class="contato-informacoes">
+        <h2 class="contato__titulo">Contato</h2>
+        <p class="contato-texto">Quer entrar em contato comigo?</p>
+        <p class="contato-texto">Preencha o fomulário ao lado e entrarei em contato o mais rápido possível.</p>
+        <form class="contato__formulario">
+            <input class="contato__campo" type="text" placeholder="Nome">
+            <input class="contato__campo" type="email" placeholder="E-mail">
+            <input class="contato__campo" type="text" placeholder="Assunto">
+            <textarea class="contato__campo contato__campo--textarea" placeholder="Mensagem"></textarea>
+            <button class="contato__botao" type="submit">Enviar mensagem</button>
+        </form>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <p class="creditos">&copy; Desenvolvido por Ivan Lima</p>
+        <p class="creditos-ano">Todos os direitos reservados - 2024</p>
+    </footer>
+</body>
+</html>
