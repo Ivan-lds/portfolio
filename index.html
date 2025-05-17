@@ -10,6 +10,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     <title>Portfólio</title>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init("NmEh_E0R8ox-wR1Q3");
+        })();
+    </script>
 </head>
 
 <body>
@@ -297,21 +303,38 @@
                 <h2 class="contato__titulo">Contato</h2>
                 <p class="contato-texto">Quer entrar em contato comigo?</p>
                 <p class="contato-texto">Preencha o fomulário ao lado e entrarei em contato o mais rápido possível.</p>
-                <form class="contato__formulario" action="https://formsubmit.co/ivanlimadossantos4@gmail.com"
-                    method="POST">
-                    <input class="contato__campo" type="text" name="nome" required placeholder="Nome">
-                    <input class="contato__campo" type="email" name="email" required placeholder="E-mail">
-                    <input class="contato__campo" type="text" name="assunto" required placeholder="Assunto">
-                    <textarea class="contato__campo contato__campo--textarea" name="mensagem" required
+                <form id="form-contato" class="contato__formulario">
+                    <input class="contato__campo" type="text" name="from_name" required placeholder="Nome">
+                    <input class="contato__campo" type="email" name="from_email" required placeholder="E-mail">
+                    <input class="contato__campo" type="text" name="subject" required placeholder="Assunto">
+                    <textarea class="contato__campo contato__campo--textarea" name="message" required
                         placeholder="Mensagem"></textarea>
-
-                    <!-- Proteções adicionais -->
-                    <input type="hidden" name="_captcha" value="false">
-                    <input type="hidden" name="_subject" value="Nova mensagem do portfólio!">
-                    <input type="hidden" name="_next" value="https://portfolio-xi-rose-13.vercel.app/obrigado.html">
 
                     <button class="contato__botao" type="submit">Enviar mensagem</button>
                 </form>
+
+                <script>
+                    document.getElementById("form-contato").addEventListener("submit", function (e) {
+                        e.preventDefault();
+
+                        // Mostrar indicador de carregamento ou desabilitar o botão aqui
+                        const botao = document.querySelector(".contato__botao");
+                        const textoOriginal = botao.textContent;
+                        botao.textContent = "Enviando...";
+                        botao.disabled = true;
+
+                        emailjs.sendForm("service_x34w3hc", "template_q6wmu3k", this)
+                            .then(function () {
+                                // Redirecionar para a página de agradecimento
+                                window.location.href = "obrigado.html";
+                            }, function (error) {
+                                console.error("Erro ao enviar: ", error);
+                                alert("Ocorreu um erro ao enviar sua mensagem. Por favor, tente novamente.");
+                                botao.textContent = textoOriginal;
+                                botao.disabled = false;
+                            });
+                    });
+                </script>
             </div>
         </section>
     </main>
