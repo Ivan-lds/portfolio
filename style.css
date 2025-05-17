@@ -249,24 +249,43 @@ span{
 .formacao__nome{
     margin: auto;
     color: white;
+    width: 30rem;
 }
 
 .formacao__detalhe{
     text-decoration: underline;
     margin: auto;
+    width: 5rem;
+    text-align: right;
     color: rgba(255, 255, 255, 0.699);
+}
+
+.graduacao{
+    padding-bottom: 1.5rem;
+    border-bottom: 0.1rem solid #2A7AE4;
 }
 
 .div-formacao{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: auto;
     gap: 0.3rem;
+}
+
+.formacao__elemento{
+    display: flex;
+    flex-direction: row;
+    width: 30rem;
+    padding: 1rem 2rem;
+    gap: 1rem;
+    margin-right: 7rem;
 }
 
 .formacao__lista{
     margin: 2rem 10rem;
     display: flex;
+    align-items: center;
+    flex-direction: column;
     justify-content: space-around;
 }
 
@@ -281,6 +300,18 @@ span{
 
 .projetos-img{
     width: 40rem;
+}
+
+.projetos-img-mobile{
+    width: 10rem;
+}
+
+.projetos-conteiner-mobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0rem 4rem;
+    gap: 2rem;
 }
 
 .projetos__conteiner{

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title>Mensagem Enviada - Obrigado</title>
+    <style>
+        .success-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 70vh;
+            background-color: #121212;
+            background-image: url(assets/fundo-header.png);
+            background-position: center;
+            background-size: cover;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .success-icon {
+            font-size: 5rem;
+            color: #00D2DF;
+            margin-bottom: 1rem;
+        }
+
+        .success-message {
+            font-size: 2.5rem;
+            color: white;
+            margin-bottom: 1rem;
+        }
+
+        .success-description {
+            font-size: 1.2rem;
+            color: white;
+            margin-bottom: 3rem;
+            max-width: 600px;
+        }
+
+        .home-button {
+            background-color: #2A7AE4;
+            color: white;
+            border: 0.1rem solid #2A7AE4;
+            padding: 1rem 2rem;
+            font-size: 1.2rem;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-decoration: none;
+        }
+
+        .home-button:hover {
+            background-color: #3085f5;
+        }
+
+        @media (max-width: 768px) {
+            .success-message {
+                font-size: 1.8rem;
+            }
+            
+            .success-description {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Menu -->
+    <header class="cabecalho">
+        <img class="cabecalho__logo" src="assets/logo-ivan.gif" alt="Logo">
+        <h1 class="cabecalho__titulo">Ivan Lima</h1>
+        <nav class="navegacao">
+            <ul class="navegacao__lista">
+                <li class="navegacao__elemento"><a href="index.html#sobre-mim">Sobre mim</a></li>
+                <li class="navegacao__elemento"><a href="index.html#habilidades">Habilidades</a></li>
+                <li class="navegacao__elemento"><a href="index.html#hobbies">Hobbies</a></li>
+                <li class="navegacao__elemento"><a href="index.html#formacao">Formação</a></li>
+                <li class="navegacao__elemento"><a href="index.html#projetos">Projetos</a></li>
+                <li class="navegacao__elemento"><a href="index.html#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="success-container">
+            <div class="success-icon">✅</div>
+            <h1 class="success-message">Mensagem Enviada!</h1>
+            <p class="success-description">
+                Obrigado pelo seu contato! Sua mensagem foi enviada com sucesso.
+                Responderei o mais breve possível.
+            </p>
+            <a href="index.html" class="home-button">Voltar para a Página Inicial</a>
+        </section>
+    </main>
+
+    <footer>
+        <p class="creditos">&copy; Desenvolvido por Ivan Lima</p>
+        <p class="creditos-ano">Todos os direitos reservados - 2024</p>
+    </footer>
+</body>
+</html>
