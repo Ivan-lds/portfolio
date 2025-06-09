@@ -13,7 +13,9 @@ body {
     line-height: 1.6;
 }
 
-ol, ul, li {
+ol,
+ul,
+li {
     list-style: none;
 }
 
@@ -33,9 +35,10 @@ a {
 
 .cabecalho__logo {
     max-width: 80px;
-    width: 5rem; /* Ajuste para telas pequenas */
+    width: 5rem;
+    /* Ajuste para telas pequenas */
     border: none;
-    border-radius: 50%; 
+    border-radius: 50%;
     margin-left: 8.7rem;
     margin-right: -14rem;
 }
@@ -46,7 +49,7 @@ a {
     color: #00D2DF;
 }
 
-.navegacao{
+.navegacao {
     margin-right: 5rem;
 }
 
@@ -54,7 +57,7 @@ a {
     display: none;
 }
 
-.navegacao__elemento{
+.navegacao__elemento {
     margin-top: 1.1rem;
 }
 
@@ -62,14 +65,14 @@ a {
     color: white;
 }
 
-.navegacao__elemento a:hover{
+.navegacao__elemento a:hover {
     text-decoration: underline;
 }
 
 
 /* ------------------------------ Seção Apresentação ------------------------------*/
 
-.apresentacao{
+.apresentacao {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -81,7 +84,7 @@ a {
     background-size: cover;
 }
 
-.apresentacao__titulo{
+.apresentacao__titulo {
     font-weight: bold;
     font-size: 3rem;
     flex-wrap: wrap;
@@ -89,18 +92,18 @@ a {
     margin: 2rem 10rem 0rem 2rem;
 }
 
-span{
+span {
     color: #00D2DF;
 }
 
-.apresentacao__subtitulo{
+.apresentacao__subtitulo {
     font-size: 1.2rem;
     margin-top: -2rem;
     margin: 0rem 10rem 0rem 2rem;
     color: white;
 }
 
-.redes{
+.redes {
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -110,11 +113,11 @@ span{
     margin: 1rem 0rem 3rem 0rem;
 }
 
-.redes__elemento__a{
+.redes__elemento__a {
     color: #00D2DF;
 }
 
-.apresentacao__foto{
+.apresentacao__foto {
     width: 38rem;
     height: 26rem;
     border-radius: 3%;
@@ -124,19 +127,19 @@ span{
 
 /* ------------------------------ Seção Sobre mim ----------------------------------*/
 
-.sobre-mim{
+.sobre-mim {
     background-color: #151515;
     padding: 3rem 0rem;
 }
 
 
-.sobre-mim__titulo{
+.sobre-mim__titulo {
     color: #00D2DF;
     margin: 0rem 10rem 1rem 10rem;
     font-size: 32px;
 }
 
-.sobre-mim__texto{
+.sobre-mim__texto {
     color: white;
     font-size: 1.2rem;
     margin: 0rem 10rem;
@@ -144,13 +147,13 @@ span{
 
 /*------------------------------ Seção de Habilidades ------------------------------*/
 
-.habilidades{
+.habilidades {
     padding: 0.1rem;
     background-color: #121212;
     border-bottom: 0.2rem solid rgb(24, 24, 24);
 }
 
-.habilidades__titulo{
+.habilidades__titulo {
     display: flex;
     justify-content: center;
     font-size: 32px;
@@ -158,42 +161,42 @@ span{
     color: #00D2DF;
 }
 
-.habilidades__lista{
+.habilidades__lista {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     margin: 2rem 10rem;
 }
 
-.habilidades__elemento{
+.habilidades__elemento {
     display: flex;
     flex-direction: column;
     padding: 1rem 2rem;
     gap: 1rem;
 }
 
-.habilidades__icone{
+.habilidades__icone {
     width: 4rem;
     margin: auto;
 }
 
-#nodejs{
+#nodejs {
     background-color: #E7E7E7;
 }
 
-.habilidades__nome{
+.habilidades__nome {
     margin: auto;
     color: white;
 }
 
 /*------------------------------ Seção de Hobbies --------------------------------*/
 
-.hobbies{
+.hobbies {
     padding: 0.1rem 0rem 1rem 0rem;
     background-color: #121212;
 }
 
-.hobbies__titulo{
+.hobbies__titulo {
     display: flex;
     justify-content: center;
     font-size: 32px;
@@ -201,58 +204,58 @@ span{
     color: #00D2DF;
 }
 
-.hobbies__lista{
-    display: flex;   
+.hobbies__lista {
+    display: flex;
     justify-content: space-between;
-    align-items: stretch; 
+    align-items: stretch;
     margin: 2rem 10rem;
 }
 
-.hobbies__icone{
+.hobbies__icone {
     width: 4rem;
     margin: auto;
 }
 
-.hobbies__elemento{
+.hobbies__elemento {
     display: flex;
     flex-direction: column;
     padding: 1.2rem 2rem;
     gap: 1.2rem;
 }
 
-.hobbies__nome{
+.hobbies__nome {
     color: white;
     margin: auto;
 }
 
 /*------------------------------ Seção de Formações --------------------------------*/
 
-.formacao{
+.formacao {
     background-color: #151515;
     padding: 0.2rem;
 }
 
-.formacao__titulo{
+.formacao__titulo {
     display: flex;
     justify-content: center;
     font-size: 32px;
     color: #00D2DF;
 }
 
-.formacao__icone{
+.formacao__icone {
     width: 18rem;
     height: 18rem;
     border: 0;
     border-radius: 1rem;
 }
 
-.formacao__nome{
+.formacao__nome {
     margin: auto;
     color: white;
     width: 30rem;
 }
 
-.formacao__detalhe{
+.formacao__detalhe {
     text-decoration: underline;
     margin: auto;
     width: 5rem;
@@ -260,19 +263,19 @@ span{
     color: rgba(255, 255, 255, 0.699);
 }
 
-.graduacao{
+.graduacao {
     padding-bottom: 1.5rem;
     border-bottom: 0.1rem solid #2A7AE4;
 }
 
-.div-formacao{
+.div-formacao {
     display: flex;
     flex-direction: row;
     margin: auto;
     gap: 0.3rem;
 }
 
-.formacao__elemento{
+.formacao__elemento {
     display: flex;
     flex-direction: row;
     width: 30rem;
@@ -281,7 +284,7 @@ span{
     margin-right: 7rem;
 }
 
-.formacao__lista{
+.formacao__lista {
     margin: 2rem 10rem;
     display: flex;
     align-items: center;
@@ -291,102 +294,156 @@ span{
 
 /*------------------------------ Seção de Projetos --------------------------------*/
 
-.projetos{
+.projetos {
     display: flex;
     gap: 3rem;
     flex-direction: column;
     background-color: #121212;
 }
 
-.projetos-img{
+.projetos-img {
     width: 40rem;
+    height: auto;
+    object-fit: contain;
 }
 
-.projetos-img-mobile{
+.projetos-img-mobile {
     width: 10rem;
+    height: auto;
+    margin-bottom: 0.5rem;
 }
 
-.projetos-conteiner-mobile{
+.projetos-conteiner-mobile {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 0rem 4rem;
+    margin: 0rem 3rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    max-height: 21rem;
+    overflow-y: auto;
+    padding-right: 1rem;
+    min-width: 400px;
+}
+
+.projetos__conteiner {
+    display: flex;
+    align-items: center;
+    margin: 0rem 10rem 2.5rem 10rem;
+    border-top: 0.1rem solid #ff0000a2;
+    padding-top: 2.8rem;
+}
+
+.projetos__conteiner-inicio {
+    display: flex;
+    align-items: center;
+    margin: -1rem 10rem 2.5rem 10rem;
+}
+
+.projetos__conteiner-final {
+    display: flex;
+    align-items: center;
+    margin: 0rem 10rem 2.5rem 10rem;
+    border-top: 0.1rem solid #ff0000a2;
+    padding-top: 2.8rem;
     gap: 2rem;
 }
 
-.projetos__conteiner{
+.projetos-conteiner {
     display: flex;
-    align-items: center;
-    margin: 0rem 10rem 0rem 10rem;
-    border-top: 0.1rem solid #ff0000a2;
-    padding-top: 2.8rem;  
+    flex-direction: column;
+    gap: 1rem;
+    height: 400px;
+    min-width: 40rem;
+    width: 40rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-right: 1rem;
+    margin-right: 2rem;
 }
 
-.projetos__conteiner-inicio{
-    display: flex;
-    align-items: center;
-    margin: 0rem 10rem 0rem 10rem;
-}
-
-.projetos__conteiner-final{
-    display: flex;
-    align-items: center;
-    margin: 0rem 10rem 3rem 10rem;
-    border-top: 0.1rem solid #ff0000a2;
-    padding-top: 2.8rem; 
-}
-
-.projetos-informacoes{
+.projetos-informacoes {
     flex-direction: column;
     color: #2A7AE4;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
-.projetos__descricao{
+.projetos__descricao {
     margin-top: -1rem;
     color: white;
 }
 
-.projetos-botoes{
+.projetos-botoes {
     display: flex;
     gap: 2rem;
+    margin-top: 1rem;
 }
 
-.projetos-ancoras{
+.projetos-ancoras {
     background-color: #FF0000;
     border: 0.1rem solid #FF0000;
     color: white;
     padding: 1rem;
 }
 
-.projetos-ancoras:hover{
+.projetos-ancoras:hover {
     background-color: #f81616;
 }
 
-.projetos-ancoras-2{
+.projetos-ancoras-2 {
     background-color: #2A7AE4;
     color: white;
     border: 0.1rem solid #2A7AE4;
     padding: 1rem;
 }
 
-.projetos-ancoras-2:hover{
+.projetos-ancoras-2:hover {
     background-color: #3085f5;
 }
 
-.projetos__titulo{
+.projetos__titulo {
     display: flex;
     justify-content: center;
     font-size: 32px;
-    color: #00D2DF; 
+    color: #00D2DF;
 }
 
-.projetos__lista{
+.projetos__lista {
     display: flex;
+}
+
+.projetos__hidden {
+    display: none;
+}
+
+.carregar-mais {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    background-color: #121212;
+}
+
+.carregar-mais-btn {
+    background-color: #00D2DF;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.carregar-mais-btn:hover {
+    background-color: #00bfc9;
 }
 
 /*------------------------------ Seção de Contato ---------------------------------*/
 
-.img-contato{
+.img-contato {
     width: 25rem;
     height: 34rem;
     margin-top: 3.5rem;
@@ -394,19 +451,19 @@ span{
     margin-left: 10rem;
 }
 
-.contato__titulo{
+.contato__titulo {
     display: flex;
     font-size: 32px;
     color: #00D2DF;
 }
 
-.contato{
+.contato {
     display: flex;
     background-color: #151515;
     gap: 2rem;
 }
 
-.contato-informacoes{
+.contato-informacoes {
     flex-direction: column;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -414,38 +471,38 @@ span{
     color: white;
 }
 
-.contato__formulario{
+.contato__formulario {
     display: flex;
     gap: 2rem;
-    flex-direction: column  ;
+    flex-direction: column;
 }
 
-.contato-texto{
+.contato-texto {
     margin-top: -1rem;
     margin-bottom: 1.5rem;
     font-size: 0.85rem;
 }
 
-.contato__campo{
+.contato__campo {
     width: 33rem;
     padding: 1rem;
     border: none;
     border-radius: 1rem;
 }
 
-.contato__campo:hover{
+.contato__campo:hover {
     border-bottom: 0.1rem solid #2A7AE4;
 }
 
-.contato__campo:hover::placeholder{
+.contato__campo:hover::placeholder {
     color: #2A7AE4;
 }
 
-.contato__campo--textarea{
+.contato__campo--textarea {
     height: 5rem;
 }
 
-.contato__botao{
+.contato__botao {
     width: 10rem;
     background-color: #2A7AE4;
     color: white;
@@ -456,7 +513,7 @@ span{
 
 /*--------------------------------------- Footer ---------------------------------------*/
 
-footer{
+footer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -466,7 +523,7 @@ footer{
     color: white;
 }
 
-.creditos-ano{
+.creditos-ano {
     margin-top: -1rem;
 }
 
@@ -502,6 +559,7 @@ footer{
 
 /* Telas grandes */
 @media (min-width: 1024px) {
+
     /* Aqui você pode ajustar ainda mais o design para telas grandes */
     .cabecalho__titulo {
         font-size: 1.8rem;
@@ -510,4 +568,31 @@ footer{
     .navegacao__elemento a {
         font-size: 1.1rem;
     }
+}
+
+/* Estilização opcional da barra de rolagem */
+.projetos-conteiner-mobile::-webkit-scrollbar {
+    width: 8px;
+}
+
+.projetos-conteiner-mobile::-webkit-scrollbar-track {
+    background: #121212;
+}
+
+.projetos-conteiner-mobile::-webkit-scrollbar-thumb {
+    background: #00D2DF;
+    border-radius: 4px;
+}
+
+.projetos-conteiner::-webkit-scrollbar {
+    width: 8px;
+}
+
+.projetos-conteiner::-webkit-scrollbar-track {
+    background: #121212;
+}
+
+.projetos-conteiner::-webkit-scrollbar-thumb {
+    background: #00D2DF;
+    border-radius: 4px;
 }
